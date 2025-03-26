@@ -26,7 +26,7 @@
             
             <div class="form-group">
                 <label for="movie">Select Movie</label>
-                <select id="movie" name="movie" required>
+                <select id="movie" name="movie">
                     <option value="">-- Select a movie --</option>
                     <option value="movie1">Interstellar: Director's Cut</option>
                     <option value="movie2">The French Dispatch</option>
@@ -40,7 +40,7 @@
                 <label>Payment Method</label>
                 <div class="payment-options">
                     <div class="payment-option">
-                        <input type="radio" id="cc" name="payment" value="cc" required>
+                        <input type="radio" id="cc" name="payment" value="cc">
                         <label for="cc">Credit Card</label>
                     </div>
                     <div class="payment-option">
@@ -52,6 +52,7 @@
                         <label for="paynow">PayNow QR</label>
                     </div>
                 </div>
+
             </div>
             
             <div class="seat-selection">
@@ -193,6 +194,6 @@
             <button type="submit" class="submit-btn">Confirm Booking</button>
         </form>
     </div>
-    <script src="scripts.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
